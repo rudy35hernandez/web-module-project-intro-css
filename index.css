@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.bannerphoto {
+    height: 50rem;
+    width: auto;
+}
+#bannertext {
+    font-size: 3rem;
+}
