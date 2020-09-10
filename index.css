@@ -4,7 +4,6 @@ html {
 }
 
 body {
-    margin: 100px;
     font-family: 'Chelsea Market', cursive;
 }
 
@@ -52,23 +51,87 @@ body {
 
 }
 
+.bannersec{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
-   
+
  
 .bannerphoto {
-    height: 30rem;
-    width: auto;
+    height: auto;
+    width: 50%;
     border-radius: 50%;
 }
-#bannertext {
-    font-size: 6rem;
+.bannertext {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
+}
+
+.paratext {
+    font-size: 2.5rem;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .descriptionp {
-    border: 2px;
+    padding: 1px;
     background-color: #DDB9A3;
+    
 }
 
 .infotext {
     color: white;
+    font-size: 2.5rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.firesec {
+    display:flex;
+  align-items:center;
+  justify-content:center;
+    }
+
+.fireimg {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#firepic {
+    width: 12%;
+    height: auto;
+    margin: 30px;
+
+}
+
+.fireimgtext {
+   
+}
+
+.firelodging {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 530;
+    text-align: center;
+    width: 30rem;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+span {
+    font-weight: 900;
+}
+
+.endphoto {
+    width: 100%;
+}
+
+.lastphoto {
+    height: 30rem;
+    width: 100%;
 }
