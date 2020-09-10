@@ -15,54 +15,62 @@ body {
     font-size: 2rem;
 }
 
-
-.topsec {
-    width: 100%;
-    border: 2px;
-    margin: auto;
-    display: inline-block;
+.headersec {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin: 70px 0px;
+    text-align: center;
+    
+  
 }
 
-.plan {
-    color: white;
+.planvisit {
     background-color: coral;
-    border: 2px; 
+    color: white;
     border-radius: 25px;
-    float: left
+    width: 200px;
+    height: 75px;
     
-
+    
 }
 
-.plantwo {
-    color: white;
+.learn {
     background-color: skyblue;
-    border: 2px; 
-    border-radius: 25px;
-    
-
-}
-
-.planthree {
     color: white;
-    background-color: orange;
-    border: 2px;
-    border-radius: 25px; 
-    float: right;
-
+    border-radius: 25px;
+    width: 200px;
+    height: 75px;
 }
 
-.bannersec{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.involved {
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 75px;
+}
+
+
+
+.bannersec {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
 }
 
 
  
 .bannerphoto {
-    height: auto;
-    width: 50%;
+    width: 400px;
     border-radius: 50%;
+}
+
+.textforbanner {
+    width: 700px;
 }
 .bannertext {
     font-family: 'Chelsea Market', cursive;
@@ -70,13 +78,26 @@ body {
 }
 
 .paratext {
+    text-align: center;
     font-size: 2.5rem;
     font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    font-weight: bold;
 }
+.paratext2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    width: 400px;
+    font-weight: bold;
+}
+
 
 .descriptionp {
     padding: 1px;
     background-color: #DDB9A3;
+    margin: 50px 50px;
     
 }
 
@@ -127,11 +148,59 @@ span {
     font-weight: 900;
 }
 
+
+.endfoot {
+    display: flex;
+    flex-flow: column;
+
+
+}
 .endphoto {
+    margin: 40px 0px 0px 0px;
     width: 100%;
+    
 }
 
 .lastphoto {
-    height: 30rem;
+    max-height: 300px; 
     width: 100%;
+}
+
+.lastblocksec {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin: 0px 0px;
+    text-align: center;
+    height: 150px;
+    background-color: #F9E7DD;
+    
+}
+
+.planvisit2 {
+    background-color: coral;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 75px;
+    margin: 40px 0px;
+    
+}
+
+.learn2 {
+    background-color: skyblue;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 75px;
+    margin: 40px 0px;
+}
+
+.involved2 {
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 75px;
+    margin: 40px 0px;
 }
