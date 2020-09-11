@@ -26,31 +26,43 @@ body {
 }
 
 .planvisit {
-    background-color: coral;
+    background-color: #FF764E;
     color: white;
     border-radius: 25px;
     width: 200px;
     height: 75px;
-    
-    
+}
+
+.planvisit:hover {
+    background-color: white;
+    color: #FF764E;
 }
 
 .learn {
-    background-color: skyblue;
+    background-color: #5ED3EB;
     color: white;
     border-radius: 25px;
     width: 200px;
     height: 75px;
+}
+
+.learn:hover {
+    color: #5ED3EB;
+    background-color: white;
 }
 
 .involved {
-    background-color: orange;
+    background-color: #FFCD69;
     color: white;
     border-radius: 25px;
     width: 200px;
     height: 75px;
 }
 
+.involved:hover {
+    color: #FFCD69;
+    background-color: white;
+}
 
 
 .bannersec {
@@ -89,7 +101,7 @@ body {
     font-size: 2.5rem;
     font-family: 'Roboto Mono', monospace;
     margin: 0 auto;
-    width: 400px;
+    width: 40rem;
     font-weight: bold;
 }
 
@@ -97,7 +109,7 @@ body {
 .descriptionp {
     padding: 1px;
     background-color: #DDB9A3;
-    margin: 50px 50px;
+    margin:5rem 5rem;
     
 }
 
@@ -109,6 +121,7 @@ body {
     margin-left: 3px;
     margin-right: 3px;
 }
+
 
 .firesec {
     display:flex;
